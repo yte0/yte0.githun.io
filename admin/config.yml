@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: yte0/testNetlifyCMS 
+  branch: main
+  base_url: https://cmsapitest1.herokuapp.com
+
+media_folder: public/img
+public_folder: img
+collections:
+  - label: "Blog"
+    name: "blog"
+    folder: "_posts/blog"
+    create: true
+    fields:
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Ingress", name: "ingress", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Article Image", name: "thumbnail", widget: "image" }
