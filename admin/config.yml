@@ -10,6 +10,7 @@ collections:
   - label: "Blog"
     name: "blog"
     folder: "_post/blog"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
       - { label: "Publish Date", name: "date", widget: "datetime" }
