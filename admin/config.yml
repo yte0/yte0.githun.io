@@ -3,9 +3,10 @@ backend:
   repo: yte0/yte0.github.io
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
+  site_url: https://yte0.github.io
 
 media_folder: public/img
-public_folder: img
+public_folder: /img
 collections:
   - label: "Blog"
     name: "blog"
