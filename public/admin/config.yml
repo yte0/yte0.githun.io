@@ -10,10 +10,13 @@ publish_mode: editorial_workflow
 public_folder: img
 logo_url: https://www.skde.no/img/logos/SKDE_sort.png
 collections:
-  - label: "Blog",
-    name: "blog",
+  - label: "Blog"
+    name: "blog"
     folder: "_post/blog"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug:
+      encoding: "ascii"
+      clean_accents: true
+      sanitize_replacement: "_"
     create: true
     fields:
       - { label: "Publish Date", name: "date", widget: "datetime" }
