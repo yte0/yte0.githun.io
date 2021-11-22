@@ -6,8 +6,9 @@ backend:
   site_url: https://yte0.github.io
 
 media_folder: public/img
-publish_mode: editorial_workflow
+publish_mode: editorial_workflow 
 public_folder: img
+logo_url: https://www.skde.no/img/logos/SKDE_sort.png
 collections:
   - label: "Blog"
     name: "blog",
