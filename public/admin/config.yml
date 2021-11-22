@@ -6,10 +6,11 @@ backend:
   site_url: https://yte0.github.io
 
 media_folder: public/img
+publish_mode: editorial_workflow
 public_folder: img
 collections:
   - label: "Blog"
-    name: "blog"
+    name: "blog",
     folder: "_post/blog"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
