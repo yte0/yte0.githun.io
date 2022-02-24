@@ -3,8 +3,8 @@ backend:
   repo: yte0/yte0.github.io
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
-  site_url: https://yte0.github.io
-  
+
+site_url: https://yte0.github.io
 logo_url: https://www.skde.no/img/logos/SKDE_sort.png
 publish_mode: editorial_workflow 
 media_folder: public/img
