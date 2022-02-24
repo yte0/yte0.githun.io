@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: yte0/testpage
+  repo: yte0/yte0.github.io 
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
   
