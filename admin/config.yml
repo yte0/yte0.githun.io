@@ -1,20 +1,19 @@
 backend:
   name: github
-  repo: yte0/yte0.github.io
+  repo: yte0/testpage
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
-
-site_url: https://yte0.github.io
-logo_url: https://www.skde.no/img/logos/SKDE_sort.png
-publish_mode: editorial_workflow 
+  
+site_url: https://yte0.github.io/
+local:  'no'
 media_folder: public/img
+publish_mode: editorial_workflow 
 public_folder: img
-local: 'no'
+logo_url: https://www.skde.no/img/logos/SKDE_sort.png
 slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "_"
-
 collections:
   - label: "Blog"
     name: "blog"
